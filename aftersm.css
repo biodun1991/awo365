@@ -1,0 +1,347 @@
+@media (min-width: 761px) and (max-width: 999px) {
+  header {
+    padding: 0;
+  }
+
+  nav ul {
+    position: absolute;
+    width: 40%;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    margin: 0;
+    padding: 1rem 2rem;
+    /* display: none; */
+  }
+
+  header nav ul .fa-times {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    display: block;
+    color: black;
+    opacity: 0.7;
+  }
+
+  header nav ul li {
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  header nav ul li a {
+    position: relative;
+    display: inline;
+    color: black;
+    font-weight: 400;
+  }
+
+  nav ul li a::after {
+    left: 0.6rem;
+  }
+
+  header nav ul li a .fas {
+    margin: 0;
+    display: none;
+  }
+
+  header nav .bx-menu {
+    display: block;
+    margin: 0;
+    font-size: 3.2rem;
+  }
+  /* nav .fa-times{
+        font-size: 3.2rem;
+        border: none;
+    } */
+
+  /* ABOUT US STYLING */
+
+  .first-section {
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 0 0.5rem;
+  }
+
+  .first-section .about-img {
+    position: unset;
+    border-radius: 0;
+    flex: 1;
+    min-height: 10rem;
+  }
+
+  .first-section .about-content {
+    flex: 1;
+    padding: 1rem;
+    height: fit-content;
+    box-shadow: none;
+  }
+
+  .first-section .about-content p {
+    font-size: 0.9rem;
+  }
+
+  /* Our mission part */
+  .second-section {
+    margin: 0;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0 0.5rem;
+  }
+
+  .our-mission,
+  .our-vision,
+  .our-core-value {
+    flex: none;
+    padding: 1rem;
+    width: 48%;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .our-core-value {
+    position: unset;
+    /* padding: ; */
+    min-height: 0;
+    height: fit-content;
+  }
+
+  /* send us message */
+
+  .send-message {
+    gap: 0.5rem;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+
+  .d-form form {
+    width: 80%;
+  }
+
+  .d-form form button {
+    width: 10rem;
+  }
+
+  /* footer */
+
+  footer {
+    padding: 2rem 1rem;
+  }
+
+  /* services */
+  .third-section {
+    padding: 1rem 1rem;
+  }
+
+  .third-section .ds-content {
+    width: 80%;
+  }
+
+  /* .third-section .ds-content h1{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+} */
+
+  .third-section .product-content {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .third-section .product-content .dproducts {
+    width: 48%;
+    min-height: 0;
+    padding: 0;
+    padding-bottom: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .third-section .product-content .dproducts img {
+    width: 100%;
+    height: 17rem;
+    position: unset;
+    border-radius: 0;
+    margin-bottom: 1rem;
+    box-shadow: none;
+  }
+
+  .product-content .dproducts p {
+    padding: 0 2rem;
+  }
+
+  /* other services */
+
+  .other-services {
+    padding: 1rem;
+  }
+
+  .others-wrapper .others-content,
+  .others-wrapper .others-content1 {
+    flex: 1;
+    margin-top: 0;
+  }
+
+  .the-main {
+    position: unset;
+    flex: 1;
+    margin-top: 0;
+  }
+
+  .others-wrapper h4 {
+    font-size: 1rem;
+    word-wrap: break-word;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  nav ul li a {
+    font-size: 0.82rem;
+  }
+
+  /* ABOUT US STYLING */
+
+  .first-section {
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+
+  .first-section .about-img {
+    position: unset;
+    border-radius: 0;
+    flex: 1;
+    min-height: 10rem;
+  }
+
+  .first-section .about-content {
+    flex: 1;
+    padding: 1rem;
+    height: fit-content;
+    box-shadow: none;
+  }
+
+  .first-section .about-content p {
+    font-size: 0.9rem;
+  }
+
+  /* Our mission part */
+
+  .second-section {
+    margin: 0;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .our-mission,
+  .our-vision,
+  .our-core-value {
+    flex: none;
+    padding: 0;
+    width: 48%;
+    box-shadow: none;
+    min-height: 20rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .our-core-value {
+    position: unset;
+  }
+
+  .second-section p {
+    font-size: 0.9rem;
+  }
+
+  .second-section h3 {
+    font-size: 1.2rem;
+  }
+
+  /* send us message */
+
+  .send-message {
+    gap: 0.5rem;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+
+  .d-form form {
+    width: 70%;
+  }
+
+  .d-form form button {
+    width: 10rem;
+  }
+
+  /* services */
+
+  .third-section {
+    background: inherit;
+  }
+
+  .third-section .ds-content {
+    padding: 2rem 2rem;
+    width: 70%;
+    margin: 1rem auto 5rem auto;
+    box-shadow: 0px 2px 8px 0px rgba(99, 99, 99, 0.9);
+  }
+
+  .third-section .ds-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .third-section .product-content {
+    justify-content: space-evenly;
+    /* gap: 2rem; */
+  }
+
+  .third-section .product-content div:last-child {
+    display: block;
+    width: 50%;
+    padding: 0;
+    min-height: 0;
+    border-radius: 0;
+    margin-top: 1rem;
+  }
+
+  .third-section .product-content div:last-child img {
+    width: 100%;
+    position: unset;
+    border-radius: 0;
+    margin-bottom: 1rem;
+  }
+
+  .third-section .product-content div:last-child p {
+    padding: 1rem;
+  }
+
+  /* other services */
+
+  .other-services {
+    padding: 1rem;
+  }
+
+  .others-wrapper .others-content,
+  .others-wrapper .others-content1 {
+    flex: 1;
+    margin-top: 0;
+  }
+
+  .the-main {
+    position: unset;
+    flex: 1;
+    margin-top: 0;
+  }
+
+  .others-wrapper h4 {
+    font-size: 1rem;
+    word-wrap: break-word;
+  }
+}
