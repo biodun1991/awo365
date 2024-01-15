@@ -1,0 +1,511 @@
+@media (max-width: 480px) {
+  header {
+    height: 100vh;
+  }
+
+  header nav ul {
+    width: 100%;
+    min-height: 16rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    height: 10rem;
+    padding: 1rem 0;
+    display: none;
+    transition: 0.5s;
+  }
+
+  header nav ul li {
+    margin: 0;
+    margin-bottom: 1rem;
+    display: block;
+    text-align: center;
+  }
+
+  header nav ul li a {
+    position: relative;
+    display: inline;
+    color: black;
+    font-weight: 400;
+  }
+
+  nav ul li a::after {
+    left: 0.6rem;
+  }
+
+  header nav ul li a .fas {
+    margin: 0;
+    display: none;
+  }
+
+  header nav .bx-menu {
+    display: block;
+    margin: 0;
+    font-size: 3.2rem;
+  }
+  nav .fa-times {
+    font-size: 3.2rem;
+    border: none;
+  }
+
+  /* ABOUT US STYLING */
+
+  .first-section {
+    display: block;
+    margin: 2rem 0;
+    padding: 0 0.5rem;
+  }
+
+  .first-section .about-img {
+    width: 100%;
+    min-height: 0;
+    height: 15rem;
+    position: unset;
+    border-radius: 0;
+  }
+
+  .first-section .about-content {
+    padding: 1rem;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .about-content p {
+    margin: 0;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  /* Our mission,vision and core value  */
+  .second-section {
+    margin: 2rem 0;
+    display: block;
+    padding: 0 0.5rem;
+  }
+  .our-mission,
+  .our-vision {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 1rem;
+    text-align: center;
+    background: white;
+    box-shadow: 0px 1px 3px 0px rgba(99, 99, 99, 0.9);
+    padding: 1rem;
+    color: rgb(20, 20, 20);
+  }
+
+  .our-core-value {
+    position: unset;
+    width: 100%;
+    min-height: 0;
+    border-radius: 0;
+    padding: 1rem;
+  }
+
+  .our-mission p,
+  .our-vision p,
+  .our-core-value p {
+    font-size: 0.9rem;
+  }
+
+  /* send us message */
+  .send-message {
+    display: block;
+    padding: 0 0.5rem;
+  }
+
+  .send-message .sendimg {
+    width: 100%;
+    box-shadow: none;
+  }
+  .send-message .d-form {
+    width: 100%;
+  }
+  .d-form form {
+    width: 100%;
+  }
+  .d-form form button {
+    width: 11rem;
+  }
+
+  /* footer */
+  footer {
+    padding: 1rem 2rem;
+  }
+  footer img {
+    display: block;
+    /* margin: 0 auto 1rem auto; */
+  }
+
+  footer .f-div {
+    display: block;
+  }
+  .f-div .f-first,
+  .f-div .f-second,
+  .f-div .f-third,
+  .f-div .f-last {
+    width: 100%;
+    text-align: unset;
+    margin-bottom: 2rem;
+  }
+
+  .f-div .f-second ul,
+  .f-div .f-third ul {
+    padding: 0;
+    width: 100%;
+  }
+
+  .f-div .f-second ul li,
+  .f-div .f-third ul li {
+    width: inherit;
+  }
+
+  .f-div .f-last p {
+    text-align: center;
+  }
+
+  /* services */
+
+  .third-section {
+    padding: 1rem 1rem;
+  }
+
+  .third-section .ds-content {
+    padding: 1rem;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+
+  .third-section .ds-content h1 {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+
+  .third-section .product-content {
+    display: block;
+  }
+
+  .third-section .product-content .dproducts {
+    width: 100%;
+    min-height: 0;
+    height: fit-content;
+    padding: 0;
+    padding-bottom: 1rem;
+    border-radius: 0;
+  }
+
+  .third-section .product-content .dproducts img {
+    width: 100%;
+    position: unset;
+    border-radius: 0;
+    margin-bottom: 1rem;
+    box-shadow: none;
+  }
+
+  .product-content .dproducts p {
+    padding: 0 0.5rem;
+  }
+
+  /* other services */
+
+  .other-services {
+    padding: 1rem;
+  }
+  .other-services h1 {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .other-services .others-wrapper {
+    display: block;
+  }
+  .others-wrapper .the-main {
+    position: unset;
+  }
+
+  .others-wrapper .others-content,
+  .others-wrapper .others-content1,
+  .others-wrapper .the-main {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .others-wrapper h4 {
+    font-size: 1rem;
+    word-wrap: break-word;
+  }
+
+  /* gallery */
+
+  .gallery .gallery-images {
+    display: block;
+  }
+
+  .gallery-images img {
+    margin-bottom: 1rem;
+    width: 90%;
+    height: 14rem;
+  }
+}
+
+/* max width 760 */
+
+@media (min-width: 481px) and (max-width: 760px) {
+  header nav ul {
+    width: 20rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    margin: 0;
+    padding: 1rem 2rem;
+    display: none;
+  }
+
+  header nav ul .fa-times {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    display: block;
+    color: black;
+    opacity: 0.7;
+  }
+
+  header nav ul li {
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  header nav ul li a {
+    position: relative;
+    display: inline;
+    color: black;
+    font-weight: 400;
+  }
+
+  nav ul li a::after {
+    left: 0.6rem;
+  }
+
+  header nav ul li a .fas {
+    margin: 0;
+    display: none;
+  }
+
+  header nav .bx-menu {
+    display: block;
+    margin: 0;
+    font-size: 3.2rem;
+  }
+  /* nav .fa-times{
+        font-size: 3.2rem;
+        border: none;
+    } */
+
+  /* aboutus */
+
+  .first-section {
+    display: block;
+    margin: 0 0 2rem 0;
+    padding: 1rem;
+  }
+
+  .first-section .about-img {
+    position: unset;
+    border-radius: 0;
+    width: 100%;
+    min-height: 0;
+    height: 15rem;
+  }
+
+  .first-section .about-content {
+    flex: 1;
+    padding: 1rem;
+    height: fit-content;
+    width: 100%;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+
+  /* Our mission,vision and core value */
+
+  .second-section {
+    margin: 2rem 0;
+    display: block;
+    padding: 0 0.5rem;
+  }
+  .our-mission,
+  .our-vision {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 1rem;
+    text-align: center;
+    background: white;
+    box-shadow: 0px 1px 3px 0px rgba(99, 99, 99, 0.9);
+    padding: 1rem 3rem;
+    color: rgb(20, 20, 20);
+  }
+
+  .our-core-value {
+    position: unset;
+    width: 100%;
+    min-height: 0;
+    border-radius: 0;
+    padding: 1rem 3rem;
+  }
+
+  .our-mission p,
+  .our-vision p,
+  .our-core-value p {
+    font-size: 1rem;
+  }
+
+  /* send us message */
+  .send-message {
+    display: block;
+    padding: 0 0.5rem;
+  }
+
+  .send-message .sendimg {
+    width: 100%;
+    height: 25rem;
+    box-shadow: none;
+  }
+  .send-message .d-form {
+    width: 100%;
+  }
+  .d-form form {
+    width: 22rem;
+  }
+  .d-form form button {
+    width: 11rem;
+  }
+
+  /* footer */
+
+  footer {
+    padding: 1rem 2rem;
+  }
+  footer img {
+    display: block;
+    margin: 0 auto 1rem auto;
+  }
+
+  footer .f-div {
+    display: block;
+  }
+  .f-div .f-first,
+  .f-div .f-second,
+  .f-div .f-third,
+  .f-div .f-last {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .f-div .f-second ul,
+  .f-div .f-third ul {
+    padding: 0;
+    width: 100%;
+  }
+
+  .f-div .f-second ul li,
+  .f-div .f-third ul li {
+    width: inherit;
+  }
+
+  .f-div .f-last p {
+    text-align: center;
+  }
+
+  /* services */
+
+  .third-section {
+    padding: 1rem 1rem;
+  }
+
+  .third-section .ds-content {
+    padding: 1rem;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+
+  .third-section .ds-content h1 {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+
+  .third-section .product-content {
+    display: block;
+  }
+
+  .third-section .product-content .dproducts {
+    width: 100%;
+    min-height: 0;
+    height: fit-content;
+    padding: 0;
+    padding-bottom: 1rem;
+    border-radius: 0;
+  }
+
+  .third-section .product-content .dproducts img {
+    width: 100%;
+    height: 23rem;
+    position: unset;
+    border-radius: 0;
+    margin-bottom: 1rem;
+    box-shadow: none;
+  }
+
+  .product-content .dproducts p {
+    padding: 0 2rem;
+  }
+
+  /* other services  */
+
+  .other-services {
+    padding: 1rem;
+  }
+  .other-services h1 {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .other-services .others-wrapper {
+    display: block;
+  }
+  .others-wrapper .the-main {
+    position: unset;
+  }
+
+  .others-wrapper .others-content,
+  .others-wrapper .others-content1,
+  .others-wrapper .the-main {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .others-wrapper h4 {
+    font-size: 1.3rem;
+    word-wrap: break-word;
+  }
+
+  .others-wrapper p {
+    font-size: 1rem;
+  }
+}
